@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #23252C;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    width: 350px;
+    background: #1A1B21;
+    border-radius: 10px;
+}
+
+.header--image {
+    padding: 0;
+    height: 350px;
+    background: url(./images/sheila.jpeg) no-repeat center/cover #23252C;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.header--text {
+    padding:  1em 2em;
+    text-align: center;
+}
+
+.header--name {
+    font-size: 25px;
+}
+
+.header--title {
+    color: #F3BF99;
+    font-size: 12px;
+    line-height: .1;
+}
+
+.header--site-link {
+    font-size: 10px;
+    padding-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #F5F5F5;
+
+}
+
+.header--button {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 120px;
+    padding: .5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    border: 0;
+}
+
+.header--button-right {
+    background: #5093E2;
+    color: #FFFFFF;
+}
+
+.main-section {
+    padding:  0 2em 2em;;
+}
+
+.main--title {
+    padding-top: 0.5em;
+    font-size: 16px;
+}
+
+.main--text {
+    font-size: 10px;
+    line-height: 2;
+}
+
+.footer--container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+    background: #161619;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer--icon {
+    color: #918E9B;
+}
